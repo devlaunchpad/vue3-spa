@@ -1,0 +1,10 @@
+title: Vue 单页应用
+home: 首页
+language:
+  english: 英文
+  chinese: 中文
+docs:
+  how-to-use: 如何使用？
+  use-i18n: i18n：国际化
+  use-mouse-tracker: 组合式函数：鼠标追踪器
+  use-counter-store: '状态管理: 计数器'
