@@ -15,7 +15,8 @@
 <p align="center">A simple and pure Vue 3 single-page application starter template.</p>
 
 <p align='center'>
-  <a href="https://vue3-spa.netlify.app/">Live Demo</a>
+  <a href="https://vue3-spa.netlify.app/">Live Demo</a> |
+  <a href="https://github.com/devlaunchpad/vue3-spa/blob/main/README.zh-CN.md">简体中文</a>
 </p>
 
 ## Introduction

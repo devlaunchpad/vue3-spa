@@ -15,7 +15,8 @@
 <p align="center">简单纯粹的 Vue 3 单页应用项目启动模板</p>
 
 <p align='center'>
-  <a href="https://vue3-spa.netlify.app/">在线演示</a>
+  <a href="https://vue3-spa.netlify.app/">在线演示</a> |
+  <a href="https://github.com/devlaunchpad/vue3-spa/blob/main/README.md">English</a>
 </p>
 
 ## 简介
