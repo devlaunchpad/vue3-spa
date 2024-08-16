@@ -139,7 +139,7 @@ pnpm test:e2e
 pnpm typecheck
 
 # 检查依赖更新
-pnpm up
+pnpm taze
 
 # 重建依赖，危险
 pnpm ri

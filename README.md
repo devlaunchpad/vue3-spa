@@ -139,7 +139,7 @@ pnpm test:e2e
 pnpm typecheck
 
 # Check for dependency updates
-pnpm up
+pnpm taze
 
 # Rebuild dependencies, dangerous
 pnpm ri
