@@ -35,7 +35,9 @@ const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
 })
 router.beforeEach((to, from) => {
-  if (to.path !== from.path) { NProgress.start() }
+  if (to.path !== from.path) {
+    NProgress.start()
+  }
 })
 router.afterEach(() => {
   NProgress.done()
