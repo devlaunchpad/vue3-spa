@@ -12,7 +12,7 @@
     "test": "vitest",
     "test:e2e": "cypress open",
     "typecheck": "vue-tsc --noEmit",
-    "tz": "taze major -I",
+    "tz": "taze minor -I",
     "ri": "rimraf pnpm-lock.yaml && rimraf package.lock.json && rimraf node_modules && pnpm i",
     "sizecheck": "npx vite-bundle-visualizer"
   },
