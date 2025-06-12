@@ -1,0 +1,112 @@
+{
+  "compilerOptions": {
+
+    // Enable composite compilation
+    "composite": true,
+
+    // ECMAScript version target
+    "target": "ES2020",
+
+    // Preserve JSX syntax
+    "jsx": "preserve",
+
+    // Included library type definitions
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+
+    // Enable the use of `define` syntax for class fields
+    "useDefineForClassFields": true,
+
+    // Base directory for module resolution
+    "baseUrl": ".",
+
+    // Use the latest ECMAScript module system
+    "module": "ESNext",
+
+    // Module resolution strategy, suitable for bundlers like Vite
+    "moduleResolution": "Bundler",
+
+    // Path alias configuration
+    "paths": {
+      // `~` alias points to the `src` directory
+      "~/*": [
+        "src/*"
+      ],
+
+      // `#` alias points to the `types` directory
+      "#/*": [
+        "types/*"
+      ]
+    },
+
+    // Allow importing JSON modules
+    "resolveJsonModule": true,
+
+    // Included type definitions
+    "types": [
+      "vitest",
+      "vite/client",
+      "vite-plugin-vue-layouts/client",
+      "unplugin-vue-macros/macros-global",
+      "unplugin-vue-router/client",
+      "@intlify/unplugin-vue-i18n/messages"
+    ],
+
+    // Allow importing modules with TypeScript extensions
+    "allowImportingTsExtensions": true,
+
+    // Allow compiling JavaScript files
+    "allowJs": true,
+
+    // Enable strict mode
+    "strict": true,
+
+    // Enable strict null checks
+    "strictNullChecks": true,
+
+    // Disallow fallthrough cases in switch statements
+    "noFallthroughCasesInSwitch": true,
+
+    // Disable unused local variables
+    "noUnusedLocals": true,
+
+    // Disable unused function parameters
+    "noUnusedParameters": true,
+
+    // Do not emit compiled output
+    "noEmit": true,
+
+    // Enable ES module interoperability
+    "esModuleInterop": true,
+
+    // Enforce consistent casing in file names
+    "forceConsistentCasingInFileNames": true,
+
+    // Enable isolated modules mode
+    "isolatedModules": true,
+
+    // Skip type checking for library files
+    "skipLibCheck": true
+  },
+
+  // References to other configuration files
+  "references": [
+    { "path": "./tsconfig.node.json" }
+  ],
+
+  // Additional configuration for the Vue compiler
+  "vueCompilerOptions": {
+    "plugins": [
+      "@vue-macros/volar/define-models",
+      "@vue-macros/volar/define-slots"
+    ]
+  },
+
+  // Included files
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "types/**/*.d.ts"
+  ]
+}
